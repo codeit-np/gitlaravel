@@ -48,7 +48,8 @@ class StudentResource extends Resource
                         TextInput::make('Book Name'),
                         DatePicker::make("expire_date"),
 
-                    ])->columnSpanFull()
+                    ])->columnSpanFull(),
+                TextInput::make('hello')
             ]);
     }
 
